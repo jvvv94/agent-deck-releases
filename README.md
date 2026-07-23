@@ -12,6 +12,8 @@
   <a href="#-한국어">한국어</a>
 </p>
 
+![Agent Deck](docs/images/working-en.png)
+
 ---
 
 ## 🇬🇧 English
@@ -32,23 +34,39 @@ Agent Deck is a Windows desktop app. You give it a task in plain language, and i
    - **If a blue "Windows protected your PC" window appears:** this is just because the app isn't code-signed yet — it is *not* a virus. Click **"More info"**, then **"Run anyway"**.
 3. It installs automatically — no administrator rights needed. An **Agent Deck** icon appears on your desktop / Start menu.
 
-### 2. First launch & connecting Claude
+### 2. First launch — connect your Claude account
 
-1. Open **Agent Deck**.
-2. On the first screen, click **"Connect subscription"**.
-3. A black **command window** opens, then your **web browser** shows the Claude login page.
-   - Log in with the same account you use at [claude.ai](https://claude.ai).
-   - When you're done, the app **moves on by itself**. (You can leave the command window open or close it.)
+Open **Agent Deck**. On the first screen, click **"Connect subscription"**.
+
+![Connect your Claude account](docs/images/connect-en.png)
+
+A black **command window** opens, then your **web browser** shows the Claude login page. Log in with the same account you use at [claude.ai](https://claude.ai). When you're done, the app **moves on by itself** — you can leave the command window open or close it.
 
 > 🔒 Your login is stored **only on your own computer** and is never sent anywhere. No one else can see your information.
 
-### 3. Give it your first task
+### 3. Take the quick tour
 
-1. After connecting, a short **3-page tour** appears. Read it and click "Start".
-2. A **"My workspace"** is created for you automatically — you don't have to pick a folder.
-3. **Click one of the cards** (e.g. "Summarize meeting notes", "Make an intro page"), or just **type what you want** in plain sentences and send it.
-4. In the middle **office view**, the agents start dividing up and doing the work.
-5. When results are ready, review **"Here's what will change"** and click **Approve**. Nothing is changed until you approve.
+The first time you connect, a short **3-page tour** explains the basics. Read it and click **"Start"**.
+
+![Quick tour](docs/images/tour-en.png)
+
+### 4. Give it your first task
+
+A **workspace** is created for you automatically — you don't have to pick a folder. Now either **click one of the recipe cards** (Meeting summary, Research, Landing page…), or just **type what you want** in plain sentences and hit **Send**.
+
+![Pick a card or just type what you want](docs/images/start-en.png)
+
+The agents split the task up and get to work. You can watch them live in the **Agent Office**, follow the **activity log**, and see each piece move across the **To do → In progress → Done** board.
+
+![Agents working on your task](docs/images/working-en.png)
+
+### 5. Review and approve
+
+When the work is ready, Agent Deck shows you **exactly what will change** before touching anything. Look it over, then click **Approve** — or **Reject** if it's not what you wanted.
+
+![Review the changes, then approve](docs/images/approve-en.png)
+
+> 🛡️ **Nothing on your computer changes until you approve.** You can undo it afterwards too.
 
 ### Frequently asked questions
 
@@ -87,23 +105,39 @@ Agent Deck은 Windows 데스크탑 앱입니다. 하고 싶은 일을 평범한 
    - **파란색 "Windows의 PC 보호" 창이 뜨면?** 아직 정식 인증서를 등록하기 전이라 뜨는 안내예요(바이러스가 아닙니다). **"추가 정보"** 를 누른 뒤 **"실행"** 버튼을 누르면 됩니다.
 3. 설치는 자동으로 진행되고 **관리자 권한도 필요 없어요.** 끝나면 바탕화면·시작 메뉴에 **Agent Deck** 아이콘이 생깁니다.
 
-### 2. 처음 켜기 & Claude 연결
+### 2. 처음 켜기 — Claude 계정 연결
 
-1. **Agent Deck**을 실행합니다.
-2. 첫 화면에서 **"구독 연결하기"** 버튼을 누르세요.
-3. 검은 **명령창**이 하나 열리고, 이어서 **웹 브라우저**에 Claude 로그인 화면이 나옵니다.
-   - 평소 [claude.ai](https://claude.ai)에서 쓰던 계정으로 로그인하세요.
-   - 로그인이 끝나면 앱 화면이 **자동으로 넘어갑니다.** (명령창은 그냥 두거나 닫아도 돼요.)
+**Agent Deck**을 실행하고, 첫 화면에서 **"구독 연결하기"** 버튼을 누르세요.
+
+![Claude 계정 연결](docs/images/connect-ko.png)
+
+검은 **명령창**이 하나 열리고, 이어서 **웹 브라우저**에 Claude 로그인 화면이 나옵니다. 평소 [claude.ai](https://claude.ai)에서 쓰던 계정으로 로그인하면, 앱 화면이 **자동으로 넘어갑니다.** (명령창은 그냥 두거나 닫아도 돼요.)
 
 > 🔒 로그인 정보는 **내 컴퓨터에만** 저장되고 외부로 전송되지 않아요. 다른 사람은 내 정보를 볼 수 없습니다.
 
-### 3. 첫 작업 시켜보기
+### 3. 사용법 안내 보기
 
-1. 연결되면 **간단한 사용법 안내**가 3장 나와요. 읽고 "시작하기"를 누릅니다.
-2. **"내 작업 공간"** 이 자동으로 만들어져 있어요 — 폴더를 직접 고를 필요가 없습니다.
-3. 오른쪽에서 **카드 하나를 클릭**하거나(예: "회의록 요약", "소개 페이지 만들기"), 하고 싶은 일을 그냥 문장으로 적어서 보내세요.
-4. 가운데 **사무실 화면**에서 에이전트들이 일을 나눠서 처리하기 시작합니다.
-5. 결과가 나오면 **"이렇게 바뀌어요"** 를 확인하고 **승인**하세요. **승인하기 전에는 아무것도 바뀌지 않아요.**
+처음 연결하면 **3장짜리 간단한 사용법 안내**가 나옵니다. 읽고 **"시작하기"** 를 누르세요.
+
+![사용법 안내](docs/images/tour-ko.png)
+
+### 4. 첫 작업 시켜보기
+
+**작업 공간**은 자동으로 만들어져 있어요 — 폴더를 직접 고를 필요가 없습니다. 이제 오른쪽에서 **추천 카드를 클릭**하거나(회의록 요약, 자료 조사, 소개 페이지 등), 하고 싶은 일을 **그냥 문장으로 적어서** 보내면 됩니다.
+
+![카드를 고르거나 원하는 일을 적어 보내기](docs/images/start-ko.png)
+
+에이전트들이 일을 나눠 처리하기 시작합니다. **에이전트 사무실**에서 실시간으로 지켜보고, **활동 로그**를 따라가고, 각 작업이 **할 일 → 진행 중 → 완료** 보드를 옮겨가는 걸 볼 수 있어요.
+
+![작업 중인 에이전트들](docs/images/working-ko.png)
+
+### 5. 확인하고 승인하기
+
+작업이 끝나면, Agent Deck이 **무엇이 어떻게 바뀌는지** 먼저 보여줍니다. 내용을 확인한 뒤 **승인**을 누르세요 — 원하던 게 아니면 **거절**하면 됩니다.
+
+![바뀌는 내용을 확인하고 승인](docs/images/approve-ko.png)
+
+> 🛡️ **승인하기 전에는 내 컴퓨터의 어떤 것도 바뀌지 않아요.** 승인 후에도 되돌릴 수 있습니다.
 
 ### 자주 묻는 질문
 
